@@ -1,0 +1,17 @@
+body {
+    background-color: #222;
+    color:whitesmoke;
+}
+table{
+    width: 100%;
+    text-align: left;
+}
+#input input{
+    width: 100%;
+    box-sizing: border-box;
+}
+#main{
+    width: 60%;
+    margin:auto;
+    text-align: center;
+}
