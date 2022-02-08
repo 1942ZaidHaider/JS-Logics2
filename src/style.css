@@ -34,7 +34,11 @@ input:focus{
 #input{
     width:50%;
 }
-
 #output{
     margin-top: 5%;
+}
+
+a{
+    text-decoration: none;
+    color: yellow;
 }

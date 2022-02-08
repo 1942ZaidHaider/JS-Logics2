@@ -14,7 +14,7 @@
           <table>
             <tr>
               <td><label for="pid">Product ID</label></td>
-              <td><input autocomplete="off" name="pid" id="pid" type="number" /></td>
+              <td><input autocomplete="off" name="pid" id="pid" type="text" /></td>
             </tr>
             <tr>
               <td><label for="pname">Product Name</label></td>
@@ -25,7 +25,10 @@
               <td><input autocomplete="off" name="pprice" id="pprice" type="number" /></td>
             </tr>
             <tr>
-              <td><input type="button" value="Add product" onclick="press()"/></td>
+              <td>
+                <input type="button" id="add_butt" value="Add product" onclick="press()"/>
+                <input type="button" id="update_butt" value="Update product" onclick="update()" hidden/>
+              </td>
               <td></td>
             </tr>
           </table>
@@ -33,11 +36,6 @@
       </div>
       <div id="output">
         <table id="out_table">
-          <tr>
-            <th class="text_right">Product ID</th>
-            <th>Product Name</th>
-            <th>Product Price</th>
-          </tr>
         </table>
       </div>
     </div>
